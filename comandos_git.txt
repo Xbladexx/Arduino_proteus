@@ -3,5 +3,8 @@ git add . //añadir archivos
 git commit -m "01" //registro historico
 git log //muestra los registros historicos
 git branch jeremy //crea un universo paralelo
-git checkout master //Cambia de universo paralelo
-git push origin main
+git checkout main //Cambia de universo paralelo
+git pull origin main //Sincronizar Servidor con el Staging
+git push origin main //Enviare los datos al servidor
+git commit -am "Segundo Viaje" //Solo se puede hacer cuando ya existe
+
