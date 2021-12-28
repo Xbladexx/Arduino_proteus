@@ -1,0 +1,6 @@
+git status // ver estado actual
+git add . //añadir archivos
+git commit -m "01" //registro historico
+git log //muestra los registros historicos
+git branch jeremy //crea un universo paralelo
+git checkout master //Cambia de universo paralelo
