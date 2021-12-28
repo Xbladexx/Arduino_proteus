@@ -1,6 +1,7 @@
 git clone https://github.com/Xbladexx/Arduino_proteus.git 
 git status // ver estado actual
 git add . //añadir archivos
+git rm --cached comandos_git.txt //Elimina el archivo de Staging
 git commit -m "01" //registro historico
 git log //muestra los registros historicos
 git branch jeremy //crea un universo paralelo
@@ -9,4 +10,14 @@ git pull origin main //Sincronizar Servidor con el Staging
 git push origin main //Enviare los datos al servidor
 git commit -am "Segundo Viaje" //Solo se puede hacer cuando ya existe
 git diff //Nos permite ver las modificaciones
+git config --list // te lista los contenido del repositorio
+git config --global user.name "Freddy Vega"
+git config --global user.email "team@platzu.com"
+git show comando.txt
+git reset fab612fa2af7faf3ee9236818c4a20dbccf2d9 --hard
+git log --stat
+git checkout fab612fa2af7faf3ee9236818c4a20dbccf2d9 comando.txt
+git checkout main comando.txt
+
+
 
