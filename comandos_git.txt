@@ -8,6 +8,7 @@ git branch jeremy //crea un universo paralelo
 git checkout main //Cambia de universo paralelo
 git pull origin main //Sincronizar Servidor con el Staging
 git push origin main //Enviare los datos al servidor
+git push -u origin main
 git commit -am "Segundo Viaje" //Solo se puede hacer cuando ya existe
 git diff //Nos permite ver las modificaciones
 git config --list // te lista los contenido del repositorio
