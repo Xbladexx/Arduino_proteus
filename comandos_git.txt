@@ -1,4 +1,5 @@
 git clone https://github.com/Xbladexx/Arduino_proteus.git 
+git remote add origin https://github.com/Xbladexx/Arduino_proteus.git
 git status // ver estado actual
 git add . //añadir archivos
 git rm --cached comandos_git.txt //Elimina el archivo de Staging
