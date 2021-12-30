@@ -21,6 +21,9 @@ git log --stat
 git checkout fab612fa2af7faf3ee9236818c4a20dbccf2d9 comando.txt
 git checkout main comando.txt
 
+//comando de Linux
+alias arbolito="git log --all --graph --decorate --oneline"
+
 
 
 
