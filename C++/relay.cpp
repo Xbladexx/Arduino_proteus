@@ -46,7 +46,7 @@ float  vol_rele , wats_foco , rbo, IC, VRB, CT=0.7 , IB, RB,KRB,VLED=2,ILED=0.01
      cin>> StrRp;
 
      if (StrRp == 's' || StrRp == 'S') 
-            ;
+             ;
                
       else if (StrRp == 'n' || StrRp == 'N') 
             break;
