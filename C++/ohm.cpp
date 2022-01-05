@@ -1,4 +1,5 @@
  #include<iostream>
+ #include <cstdlib>
 
  using namespace std;
 
@@ -12,4 +13,6 @@
    cout<<"El Amperio es: "<<Amperio_total<<"A"<<endl;
    cout<<"la resistencia es: "<<resitencia<<" ohm"<<endl;
    return 0;
+   system("Color 4a");
+   system("pause");
  }
