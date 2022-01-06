@@ -1,1 +1,4 @@
-Este es el segundo viaje.
+g++ nota.cpp -o nota //compilar
+./nota// ejecutar
+ rm -R trabajo2.cpp //Elimina Archivos
+touch hola.cpp // crear archivos, es importante ponerle extencion.
