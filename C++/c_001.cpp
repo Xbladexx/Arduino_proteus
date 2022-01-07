@@ -12,9 +12,9 @@ int main()
 	scanf("%f",&a);
 	cout<<"Ingrese el segundo numero: ";
 	cin>>b;
-	
-	printf("El resultado es:  %1.f \n",a );
-	cout<<"El resultado es: "<<b<<endl;
+	c=a+b;
+	printf("El resultado es:  %1.f \n",c );
+	cout<<"El resultado es: "<<c<<endl;
 	getch();
 	//system("pause");
 	
