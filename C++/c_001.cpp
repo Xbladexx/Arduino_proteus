@@ -4,7 +4,7 @@
 #include<cstdlib> //System("cls"); --- system("pause");
 using namespace std;
 float a,b,c;
- main()
+int main()
 {
 	
 	system("cls");//Limpiar pantalla
