@@ -3,7 +3,7 @@
 using namespace std;
 
 float  horas , precio , sueldo;
-char nombre[50];
+char nombre[50];//Tipo caracter
 
 int main()
 {
