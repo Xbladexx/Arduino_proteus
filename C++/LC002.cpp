@@ -4,18 +4,18 @@
 #include <cstdlib>
 using namespace std;
 
-float precio , Sueldo, Dscto , Neto , horas;
-char Apellidos y nombres[100];
+float   horas , precio , Sueldo, Dscto , Neto  ;
+char Apellidos_nombres[100];
 
 int main()
 {
 	system("cls");
 	cout<<"Ingrese sus Apellidos y nombres: ";
-	cin>>Apellidos y nombres;
+	cin>>Apellidos_nombres;
 	printf("Ingrese las horas laboradas: ");
-	printf("%f",&horas);
+	scanf("%f",&horas);
 	printf("Ingrese el precio de las horas laboradas: ");
-	printf("%f",&precio);
+	scanf("%f",&precio);
 
 	Sueldo=horas*precio;
 	Dscto=Sueldo*0.12;
@@ -26,4 +26,5 @@ int main()
 	printf("El neto a pagar es: %1.f \n",Neto);
 
 	getch();
+	
 }
