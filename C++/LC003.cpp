@@ -11,15 +11,15 @@ char Descrip[100];
 
 int main()
 {
-	systeam("cls");
+	system("cls");
 	cout<<"Descripcion del articulo: ";
 	cin>>Descrip;
 	printf("Precio de compra: ");
-	scanf("%f",%Precio);
+	scanf("%f",&Precio);
 	printf("Porcentaje de Ganancia: ");
-	scanf("%f",%Ganancia);
+	scanf("%f",&Ganancia);
 	printf("Numeros de unidades en stock: ");
-	scanf("%f",%stock);
+	scanf("%f",&stock);
 
 	Pventa=Precio+Precio*(Ganancia/100);
 	Valoriza=Pventa*stock;
