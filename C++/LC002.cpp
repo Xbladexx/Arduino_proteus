@@ -23,8 +23,8 @@ int main()
 
 	printf("El sueldo basico es: %1.f \n",Sueldo);
 	cout<<"El descuento de ley es: "<<Dscto<<endl;
-	printf("El neto a pagar es: %1.f \n",Neto);
-
+	printf("El neto a pagar es: %1.1f \n",Neto);
+	
 	getch();
 	
 }
