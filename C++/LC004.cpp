@@ -7,7 +7,7 @@ using namespace std;
 
 float practica , parcial , final , Promedio ;
 
-char Curso, Alumno[100];
+char Curso[100], Alumno[100];
 
 
 int main()
