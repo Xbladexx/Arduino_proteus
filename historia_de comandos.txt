@@ -2,3 +2,15 @@ g++ nota.cpp -o nota //compilar
 ./nota// ejecutar
  rm -R trabajo2.cpp //Elimina Archivos
 touch hola.cpp // crear archivos, es importante ponerle extencion.
+
+////Python
+comandos basicos
+
+Python --version
+Esto permite saber la version de python en el ordenador
+
+Python es un programa en la cual su sintaxis es fuertemente tipado.
+
+para ejecutar un programa en python deberas hacerlo con la siguiente sintaxis
+
+Python y LC001.py
