@@ -14,3 +14,7 @@ Python es un programa en la cual su sintaxis es fuertemente tipado.
 para ejecutar un programa en python deberas hacerlo con la siguiente sintaxis
 
 Python y LC001.py
+
+Libreria para automatizacion
+
+pip install pyautogui
