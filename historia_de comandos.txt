@@ -17,4 +17,7 @@ Python y LC001.py
 
 Libreria para automatizacion
 
+para abrir una carpeta completa con archivo en visual code estudios es
+code . //luego precionas enter
+
 pip install pyautogui
