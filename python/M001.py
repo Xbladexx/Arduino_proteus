@@ -4,7 +4,7 @@ from tkinter import*
 #color="#00878F"
 color="#00248f"
 
-arduino = serial.Serial('COM4',9600)
+arduino = serial.Serial('COM3',9600)
 time.sleep(2)
 
 def foco1():
@@ -53,7 +53,7 @@ Label(ventana,text="PRO-PYTHON",bg=color,fg=("#ede60c"),font=("Times New Roman",
 ventana.configure(background=color)
 ventana.title("Casa Domotica con Arduino")
 ox,oy=ventana.winfo_screenwidth()/2,ventana.winfo_screenheight()/2
-ventana.geometry("650x400+%d+%d"% (ox-200,oy-100))
+ventana.geometry("200x550+%d+%d"% (ox-200,oy-100))
 ventana.wm_deiconify()
 ventana.iconbitmap("jk.ico")
 #ventana.geometry('350x200')
@@ -89,5 +89,5 @@ b11.place(x=28,y=440)
 #b3=Button(ventana,text="Cerrar",command=cerrar)
 #b3.grid(row=2,column=0)
 b13=Button(ventana,text="Cerrar",font=("Comic Sans MS",10),command=cerrar,bg='#FAED1F')
-b13.place(x=72,y=240)
+b13.place(x=70,y=480)
 ventana.mainloop()
