@@ -4,7 +4,7 @@ from tkinter import*
 #color="#00878F"
 color="#00248f"
 
-arduino = serial.Serial('COM3',9600)
+arduino = serial.Serial('COM4',9600)
 time.sleep(2)
 
 def foco1():
@@ -14,34 +14,34 @@ def foco2():
 	arduino.write('s'.encode())#pin3
 
 def foco3():
-	arduino.write('d'.encode())	
+	arduino.write('d'.encode())#pin4	
 
 def foco4(): 
-	arduino.write('f'.encode())	
+	arduino.write('f'.encode())#pin3	
 
 def foco5():
-	arduino.write('g'.encode())
+	arduino.write('g'.encode())#pin4
 
 def foco6():
-	arduino.write('h'.encode())
+	arduino.write('h'.encode())#pin5
 
 def foco7():
-	arduino.write('j'.encode())
+	arduino.write('j'.encode())#pin6
 
 def foco8():
-	arduino.write('k'.encode())
+	arduino.write('k'.encode())#pin7
 
 def foco9():
-	arduino.write('l'.encode())
+	arduino.write('l'.encode())#pin8
 
 def foco10():
-	arduino.write('z'.encode())
+	arduino.write('z'.encode())#pin9
 
 def foco11():
-	arduino.write('x'.encode())
+	arduino.write('x'.encode())#pin10
 
 def foco12():
-	arduino.write('c'.encode())
+	arduino.write('c'.encode())#pin11
 
 def cerrar():
 	arduino.close()
