@@ -84,7 +84,6 @@ int menu(){
 	cout<<"--    9.- " + opciones[8]<<endl;
 	cout<<"--    10.- " + opciones[9]<<endl;
 	cout<<"--    11.- " + opciones[10]<<endl;
-	cout<<"--    12.- " + opciones[11]<<endl;
 	cout<<"----------------------------------------------"<<endl;
 	cout<<"--    Elije una Opcion >>> ";cin>>op;
 	cout<<"\n\tUd. ha elejido ";
@@ -148,11 +147,5 @@ void led10(){
 void led11(){
 		if(Arduino -> IsConnected()){
 			Arduino -> WriteData("x", sizeof("x")-1);
-		}
-}
-
-void apagar(){
-		if(Arduino -> IsConnected()){
-			Arduino -> WriteData("c", sizeof("c")-1);
 		}
 }
