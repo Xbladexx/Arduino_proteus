@@ -57,3 +57,10 @@ Es un lenguane interpretado, ya que no necesita compilarse, asi que su sintaxis 
 Ruby(GEM) y las Gemas
 Ruby es un lenguaje insterpretado muy parecido a python, por lo de fuertemente tipado, es un lenguaje interpretado
 pero es mas ordenado. y su sintaxis de programacion es mas facil de usar.
+
+///Comando de SSH
+para ingresar a otra computadora de linux, deberas hacer una conexcion remota eso se logra
+reconociendo la ip y el nombre de usuario de la maquina
+
+Sintaxis: ssh inori@192.168.1.168
+Luego pones la contraseña configurada en el servidor
