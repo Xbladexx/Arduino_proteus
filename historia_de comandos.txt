@@ -21,8 +21,29 @@ para abrir una carpeta completa con archivo en visual code estudios es
 code . //luego precionas enter
 
 pip install pyautogui
-pip install pyserial
 pip install tk
+pip install SpeechRecognition
+pip install pyttsx3
+pip install pywhatkit
+pip install wikipedia
+pip install pygame
+pip install keyboard
+pip install opencv-python
+pip install numpy
+pip install Selenium
+
+//Serial Port
+pip install pyserial
+python.exe -m pip install --upgrade pip
+
+//py audio
+se debe instalar el archivo descargado
+pip install PyAudio-0.2.11-cp38-cp38-win_amd64.whl
+//Se encuentra en la carpeta python en Py_Audio
+
+//Otro metodo no utilizado
+pip install pipwin
+pipwin install pyaudio
 
 Python(PIP)
 Lenguaje de programacion interpretado, fuertemente tipado, su funcionalidad era que los niños se interesen en los
