@@ -1,0 +1,29 @@
+En este manual lo que se realizara son los nuevos procedimientos de trabajo:
+
+Standar Firmata
+Esta libreria nos permite liberar el arduino en los distintos lenguajes a trabajar, Sea Python, Javascript, ruby, Go, etc.
+la forma de instalacion de este libreria al arduino es atraves de la ide, que el mismo arduino cuenta.
+Solo debes primero abrir arduino IDE, luego dirigirte al menu Archivo, luego a Ejemplos, y por supuesto a Firmata, y como ultimo buscar la libreria StandarFirmata.
+una ves Abierta la libreria, solo debemos grabarlo en el arduino. y listo.
+Nota: deberas verificar el tipo de arduino, y el puerto "COM" donde este conectada.
+
+BootLoader
+Este firmware, es elq ue viene instalado por defecto en el arduino al momento de su compra, Tomen mucha atencion:
+El arduino tiene como procesado el microcontrolador llamado "ATMEGA328P", este es su estado natural no viene con el bootloader grabado, se deben seguir una serie de pasos para
+su instalacion.
+
+Pero cuando lo compras con arduino, viene preinstalado, que nos permite hacer este bootloader, la simplefuncion de autograbar cuantas vexes quieras en el micorcontrolador, siempre
+y cuando, el codigo este bien referido, y sobre todo con errores de sintaxis, se por punto y coma o definicion de funciones o variables.
+
+Puerto COM:
+EL puerto COM es un protocolo de comunicacion que nos permite, mandar informacion desde la computadora al arduino, atra vez de su medio de comunicacion llamado TX(Transmicion)
+y RX(Recepcion).
+
+Bluethoo
+El un modulo muy particular, gracias a que hay variedades de ellos, siendo en arduino el mas conocido el HC-05, pero sin dejar de lado el HC-06, HC-04 entre otros.
+
+EL modulo HC-05 es el mas conocido por que tiene la particularidad de ser "Maestro - Escalvo", palabras que en la actualidad son retiradas por ser ofensivo a la comunidad
+Afroamericana.
+
+Funcion del Maestro-Esclavo, EL Maestro comanda la infomacion, El Esclavo solo recibe la informacion y ejecuta el programa.
+

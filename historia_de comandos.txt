@@ -23,3 +23,16 @@ code . //luego precionas enter
 pip install pyautogui
 pip install pyserial
 pip install tk
+
+Python(PIP)
+Lenguaje de programacion interpretado, fuertemente tipado, su funcionalidad era que los niños se interesen en los
+lenguajes emergente de programacion usando su creatividad.
+pero el lenguaje fue tan sencillo que las comunidades de software lo acuñaron como el mejor lenguaje interpretado y facil de usar.
+asi que los ingeniero y desarroladores de software empesaron a enriqueser el codigo añadiendole con cada año nuevas funcionalidades.
+
+JavaScript(FrontEnd) NODEJS(BackEnd)(NPM)(NPX)
+Es un lenguane interpretado, ya que no necesita compilarse, asi que su sintaxis es parecida al de c++ con python
+
+Ruby(GEM) y las Gemas
+Ruby es un lenguaje insterpretado muy parecido a python, por lo de fuertemente tipado, es un lenguaje interpretado
+pero es mas ordenado. y su sintaxis de programacion es mas facil de usar.
