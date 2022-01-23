@@ -22,7 +22,7 @@ y RX(Recepcion).
 Bluethoo
 El un modulo muy particular, gracias a que hay variedades de ellos, siendo en arduino el mas conocido el HC-05, pero sin dejar de lado el HC-06, HC-04 entre otros.
 
-EL modulo HC-05 es el mas conocido por que tiene la particularidad de ser "Maestro - Escalvo", palabras que en la actualidad son retiradas por ser ofensivo a la comunidad
+EL modulo HC-05 es el mas conocido por que tiene la particularidad de ser "Maestro - Esclavo", palabras que en la actualidad son retiradas por ser ofensivo a la comunidad
 Afroamericana.
 
 Funcion del Maestro-Esclavo, EL Maestro comanda la infomacion, El Esclavo solo recibe la informacion y ejecuta el programa.
