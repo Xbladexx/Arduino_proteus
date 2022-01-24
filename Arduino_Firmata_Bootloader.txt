@@ -27,3 +27,38 @@ Afroamericana.
 
 Funcion del Maestro-Esclavo, EL Maestro comanda la infomacion, El Esclavo solo recibe la informacion y ejecuta el programa.
 
+c++ funcion
+
+void saludo(){//Void es vacio
+cout<<"Hola mundo";
+}
+
+
+python
+
+def saludo:  #def es declaracion de una funcion
+    print("Hola mundo")
+
+
+javascript
+
+function saludo(){ //function es la declacion de una funcion
+console.log("Hola mundo");
+
+}
+
+
+Java
+
+
+TypeScript
+
+Reac JS framework
+Angular JS Framework
+Vue JS Framework
+
+Node js Framework type y javacript
+
+HTML
+
+
