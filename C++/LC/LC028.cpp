@@ -1,5 +1,4 @@
 #include<iostream>
-#include<stdlib.h>
 using namespace std;
 int Num , Nd = 0 , Z;
 
@@ -12,23 +11,23 @@ int main()
     {
         if (Num%Z == 0)
         {
-            //Nd
-            //Z++;
-            //Nd = Nd + 1
-        }    
-        else if (Nd == 2)
+            //cout<<Z<<endl;
+            
+            //Nd = Nd + 1;
+            Nd++;
+        }
+
+    }
+        if (Nd > 2)
         {
-            cout<<"Numero primo";
+            cout<<"\n No es primo";
         }
         else
         {
-            cout<<"No es primo";
-        }
-        
-        
+            cout<<"\n Si es primo";
+        }   
     
     
-    }
 
     return 0;
 }
