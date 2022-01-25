@@ -61,4 +61,28 @@ Node js Framework type y javacript
 
 HTML
 
+input //Ingreso de datos
+
+ouput //Salida de datos
+
+C++
+
+ //Ingreso de datos
+cout<<"ingrese nombre y apellido; 
+cin>>nombre >> apellido; // Salida
+
+
+python
+
+nombre = input("Ingrese su nomrbre") //Ingreso de datos
+apellido = input("Ingrese su apellido") //Ingreso de datos
+print(nombre+apellido) //Salida
+
+var nombre = prompt("Cual es tu nombre");
+var apellido = promt("Cual es tuy apellido");
+
+alert("Su nombre es: "+nombre+" "+apellido);//frontend
+
+console.log("Su nombre es: "+nombre+" "+apellido);//backend
+
 
