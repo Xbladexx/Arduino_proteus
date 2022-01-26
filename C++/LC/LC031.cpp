@@ -4,7 +4,7 @@ int i;
 float suma , promedio , nota , Nmin=20 , Nmax=0 , Nnotas=10;
 int main()
 {
-    for ( i = 1; i < Nnotas; i++)
+    for ( i = 1; i <= Nnotas; i++)
     {
         cout<<"Ingrese nota: ";
         cin>>nota;
@@ -17,10 +17,10 @@ int main()
     {
         Nmin = nota;
     }
-
-    
-        suma = suma + nota;
+        suma = suma+nota;
+        //suma += nota;
     }
+        
         promedio = suma / Nnotas;
 
         cout<<"Maxima nota: "<<Nmax<<endl;
