@@ -54,6 +54,16 @@ asi que los ingeniero y desarroladores de software empesaron a enriqueser el cod
 JavaScript(FrontEnd) NODEJS(BackEnd)(NPM)(NPX)
 Es un lenguane interpretado, ya que no necesita compilarse, asi que su sintaxis es parecida al de c++ con python
 
+NodeJS(BackEnd)
+Node correo bajo el lado del servidor, y consta de paquetes de trabajo o librerias que enriquesen su funcionamiento.
+Las paqueterias a trabajar son:
+
+(NPM)
+
+(NPX)
+
+
+
 Ruby(GEM) y las Gemas
 Ruby es un lenguaje insterpretado muy parecido a python, por lo de fuertemente tipado, es un lenguaje interpretado
 pero es mas ordenado. y su sintaxis de programacion es mas facil de usar.
