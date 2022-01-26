@@ -59,6 +59,13 @@ Node correo bajo el lado del servidor, y consta de paquetes de trabajo o libreri
 Las paqueterias a trabajar son:
 
 (NPM)
+npm init -y // crear rapido
+npm install johnny-five //instala la libreria
+node index.js // ejecuta el programa
+
+////////////////////
+si tienes los pakages.json
+npm install
 
 (NPX)
 
