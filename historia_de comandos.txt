@@ -67,6 +67,15 @@ node index.js // ejecuta el programa
 si tienes los pakages.json
 npm install
 
+
+/////metodos
+myLed.stop()
+myLed.on()
+myLed.off()
+myLed.Strobe(2000)
+myLed.blink(1000)
+
+
 (NPX)
 
 
