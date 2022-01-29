@@ -9,6 +9,13 @@
   "author": "jeremy",
   "license": "ISC",
   "dependencies": {
-    "johnny-five": "^2.1.0"
+    "cylon": "^1.3.0",
+    "debug": "^4.3.3",
+    "etherport-client": "^0.1.4",
+    "firmata": "^2.3.0",
+    "firmata-party": "^2.0.0",
+    "johnny-five": "^2.1.0",
+    "keypress": "^0.2.1",
+    "udp-serial": "^0.2.0"
   }
 }
