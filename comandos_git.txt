@@ -20,10 +20,31 @@ git reset fab612fa2af7faf3ee9236818c4a20dbccf2d9 --hard
 git log --stat
 git checkout fab612fa2af7faf3ee9236818c4a20dbccf2d9 comando.txt
 git checkout main comando.txt
-
+git rebase experimento(Experimento es la rama a retroceder)
+git branch -D Experimento(Elimina la rama experimento)
+gitk (Te permite ver todos los cambios que hiciste de modo grafico)
+git stash (es como un ctrl+Z te permite retroceder un paso si cometiste un error)
+git stash pop (es como escribit ctrl+y ese te adelanta al cambio que estuviste originalmente)
+git stash list (Te permite ver una lista de los cabios anteriores)
+git clean --dry-run(te informa los archivos que va a borrar)
+git clean -f (Borra los archivos automaticamente, pero no carpetas)
+git stash branch readme-mejorado (Crea una rama con stash)
+git log --oneline (permite ver el log en una sola linea)
+git cherry-pick dca2a24 (trae al main el cambio especifico de una linea de codigo, desde otra rama por medio de su ide de identificacion)
+git commit --amend (Esto permite añadir cambio solo al comit anterior, para no generar un nuevo commit)
+git reflog (nos permite ver todos los verdaderos cambios y poder escoger donde regresar en el tiempo)
+git reset --HARD c894560 (reseteara el punto de inflexcion donde todo estaba bien)
+git grep -n color (Busca la palabra color)
+git grep -c color (Te informa cuantes veces usas esa palabra)
+git log -S "Cabezera" (Busca la palabra en el historial de los commit)
+git shortlog -sn --all (te muestra todas las personas que trabajaron en el proyecto, con su commit)
+git shortlog -sn --all --no--merges (te muestra todas las personas que trabajaron en el proyecto, con su commit)
+git blame -c blogpost.html (Es el recordatorio de los cambios)
+git blame --help (abre una pagina web con el manual de uso de el comando blame)
+git blame css/estilos.css -L35,53 -c (te permite ver quien hizo los cambios por lineas especificas)
+git branch -r (puedes ver las ramas remotas)
+git branch -r (ves todas las ramas)
 //comando de Linux
 alias arbolito="git log --all --graph --decorate --oneline"
-
-
-
-
+git config --global alias.stats "shortlog -sn --all --no-merges"
+para ejecutarlo es git stats
