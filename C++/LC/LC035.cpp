@@ -8,8 +8,8 @@ int main()
 
     while ( Num > 0  )
     {
-        Num-- ;
-        Digi = Digi*10;
+        //Num-- ;
+        //Digi = Digi*10;
         Digi = Num%10;
         cout<<Digi<<endl;
         Num = Num / 10;

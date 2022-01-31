@@ -75,6 +75,16 @@ myLed.off()
 myLed.Strobe(2000)
 myLed.blink(1000)
 
+///Variables de entorno
+alias crear="touch"
+alias borrar="rm -R"
+sintaxis:
+crear app.js //Crear el archivo
+borra app.js //Borrar el archivo
+
+////Dormir
+sleep 5 && crear app.js
+
 
 (NPX)
 

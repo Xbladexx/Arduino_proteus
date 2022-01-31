@@ -16,6 +16,7 @@
     "firmata-party": "^2.0.0",
     "johnny-five": "^2.1.0",
     "keypress": "^0.2.1",
+    "serialport": "^9.2.8",
     "udp-serial": "^0.2.0"
   }
 }
