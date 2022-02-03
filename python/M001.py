@@ -4,7 +4,7 @@ from tkinter import*
 #color="#00878F"
 color="#00248f"
 
-arduino = serial.Serial('COM3',9600)
+arduino = serial.Serial('COM4',9600)
 time.sleep(2)
 
 def foco1():
