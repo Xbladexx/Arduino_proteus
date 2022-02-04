@@ -12,8 +12,12 @@ void setup()
  
   // Print a message to the LCD.
   lcd.backlight();
-  lcd.print("Hola Mundo!");
-  delay(3000);
+  lcd.setCursor(0,0);
+  lcd.print("   HAY ENTRO  ");
+  lcd.setCursor(0,1);
+  lcd.print("   CARAMELO  ");
+  delay(6000);
+
   lcd.clear();
 }
 
