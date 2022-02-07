@@ -11,11 +11,12 @@ int main()
         cin>>Nro ;
         sueldo = sueldo + Nro;
     }
+    /*
     for ( S = 0; S < 4 ; S++)
     {
         cout<<Nro<<endl;
-    }
-    Prom = sueldo / 5;
+    }*/
+    Prom = sueldo / 4;
     cout<<"El sueldo total es: "<<sueldo<<endl;
     cout<<"El promedio de sueldo es: "<<Prom<<endl;
     
