@@ -7,10 +7,11 @@ int main(){
 
     cout<<"Ingresa Numero del planeta: ";
     cin>>Num;
-    if(Num>=1 && Num<10){
+    if(Num>=1 && Num<10){//&& significa una "Y"
         cout<<"El nombre del planeta es: "<<planeta[Num-1];
     
     }
+
     else{
         cout<<"El numero no es valido";
 
