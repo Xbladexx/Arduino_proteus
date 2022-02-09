@@ -2,7 +2,7 @@ const {Board, LCD} =require("johnny-five");
 let myboard = new Board;
 myboard.on('ready',()=>{
     let lcd = new LCD({
-        controller : "PCF8574AT"
+        controller : "PCF8574T"
     });
 
     function delay(ms){
