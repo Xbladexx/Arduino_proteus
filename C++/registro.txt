@@ -1,0 +1,5 @@
+Nombre de usuario: jeremy
+Pasword: 03
+EL correo es: jer@gmail.com
+Tu edad es: 16
+Tu Web es: per.com

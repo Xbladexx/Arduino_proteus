@@ -1,3 +1,4 @@
+//EcmaScript 6
 const {Board, LCD} =require("johnny-five");
 let myboard = new Board;
 myboard.on('ready',()=>{
