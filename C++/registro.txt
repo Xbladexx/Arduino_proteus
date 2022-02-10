@@ -1,5 +1,8 @@
-Nombre de usuario: jeremy
-Pasword: 03
-EL correo es: jer@gmail.com
-Tu edad es: 16
-Tu Web es: per.com
+       WELCOME      
+Username: jeremy
+Mail: jeremy.gmail.com
+Password: jeremy04
+Amount entered: 8000
+IGV entered: 0.16
+Your IGV is: 1280
+Your amount to pay is: 9280

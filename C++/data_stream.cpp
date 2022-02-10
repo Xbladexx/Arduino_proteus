@@ -21,7 +21,7 @@ using namespace std;
     cin>>edad;
     cout<<"Ingrese su web"<<endl;
     cin>>web;
-     web = pass - edad;
+    
     //Imprimir recibo
     ofstream archivo;
     archivo.open("registro.txt");
