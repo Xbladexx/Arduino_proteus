@@ -7,46 +7,46 @@ using namespace std;
 float IGV, x , p , m , r , d , t , c , mo , u , te , es, subtotal, solestotal , v , total , otros;
 void dolar()
 {
-    cout<<"Por el momento todos los precios a ingresar con sin IGV puede ponerse otros producto diferente a los que dice la idea es que se van a comprar juntos todos los items la factura tiene 8 espacios, se pueden llenar con ceros. \n\n";
+    cout<<"\nPor el momento todos los precios a ingresar con sin IGV puede ponerse otros producto diferente a los que dice la idea es que se van a comprar juntos todos los items la factura tiene 8 espacios, se pueden llenar con ceros. \n\n";
 }
 
 int main()
 {
     system("CLS");
-    cout<<"Tipo de cambio de la pagina: ";
+    cout<<"Tipo de cambio de la pagina: \t";
     cin>>x;
     dolar();
-    cout<<"Placa Madre: ";
+    cout<<"Placa Madre: \t\t";
     cin>>m;
-    cout<<"Procesador 'CPU': ";
+    cout<<"Procesador 'CPU': \t";
     cin>>p;
-    cout<<"Memoria 'RAM': ";
+    cout<<"Memoria 'RAM': \t\t";
     cin>>r;
-    cout<<"Disco duro: ";
+    cout<<"Disco duro: \t\t";
     cin>>d;
-    cout<<"Tarjeta de video: ";
+    cout<<"Tarjeta de video: \t";
     cin>>t;
-    cout<<"Case: ";
+    cout<<"Case: \t\t\t";
     cin>>c;
-    cout<<"Monitor: ";
+    cout<<"Monitor: \t\t";
     cin>>mo;
     cout<<"Otros\n";
-    cout<<"-Unidad Optica: ";
+    cout<<" -Unidad Optica: \t";
     cin>>u;
-    cout<<"-Teclado/Mouse: ";
+    cout<<" -Teclado/Mouse: \t";
     cin>>te;
-    cout<<"-Estabilizador: ";
+    cout<<" -Estabilizador: \t";
     cin>>es;
     otros = u + te + es;
     subtotal =  m + p + r + d + t + c + mo + u + te + es;
     solestotal = subtotal*x; 
     IGV =solestotal*0.18;
     total = solestotal + IGV;
-    cout<<"Precio Neto en dolar: "<<subtotal<<endl;
-    cout<<"Precio Neto en soles: "<<solestotal<<endl;
-    cout<<"Precio IGV: "<<IGV<<endl;
-    cout<<"Precio Neto en soles inc. IGV: "<<total<<endl;
-    cout<<"Para ventas ingresar un valor mayor al sugerido caso contrario ingrese un valor menor o cero.\n";
+    cout<<"Precio Neto en dolar: \t"<<subtotal<<endl;
+    cout<<"Precio Neto en soles: \t"<<solestotal<<endl;
+    cout<<"Precio IGV: \t\t"<<IGV<<endl;
+    cout<<"Total inc. IGV: \t"<<total<<endl;
+    cout<<"\nPara ventas ingresar un valor mayor al sugerido caso contrario ingrese un valor menor o cero.\n";
     
     ofstream archivo;
     archivo.open("registro.txt");
@@ -62,9 +62,9 @@ int main()
     archivo<<"Monitor:____________________________ "<<"$"<<mo<<" (S./"<<mo*x<<")"<<endl;
     archivo<<"Otros:______________________________ "<<"$"<<otros<<" (S./"<<otros*x<<")"<<endl;
     archivo<<"Sub-total(dolar):___________________ "<<"$"<<subtotal<<endl;
-    archivo<<"Sub_total(soles):___________________ "<<"$"<<solestotal<<endl;
-    archivo<<"IGV (18%):__________________________ "<<"$"<<IGV<<endl;
-    archivo<<"Total:______________________________ "<<"$"<<total<<endl;
+    archivo<<"Sub_total(soles):___________________ "<<"S./"<<solestotal<<endl;
+    archivo<<"IGV (18%):__________________________ "<<"S./"<<IGV<<endl;
+    archivo<<"Total:______________________________ "<<"S./"<<total<<endl;
     archivo.close();
     getch();
     system("start registro.txt");
