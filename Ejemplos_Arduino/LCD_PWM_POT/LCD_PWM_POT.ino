@@ -11,6 +11,12 @@ int OutputValor=0;
 
 void setup() {
   Serial.begin(9600);
+  pinMode(ledverde, OUTPUT);
+  pinMode(ledamarillo, OUTPUT);
+  pinMode(ledrojo, OUTPUT);  
+  pinMode(trigger, OUTPUT);// el tiro esta configurado en salida
+  pinMode(Echo, INPUT);// el echo esta configurado en entrada
+  digitalWrite(trigger, LOW);//se inicializa el tiro en modo apagado
 
   lcd.init();// Inicioaliza el LCD
  

@@ -17,5 +17,8 @@ int main()
 
 	total=(nota1+nota2+nota3+nota4)/4;
 	cout<<"Su total es: "<<total<<endl;
+
+
+
 	return 0;
 }
