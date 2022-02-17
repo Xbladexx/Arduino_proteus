@@ -1,6 +1,18 @@
-#h1{
-    color: orange;
-    text-align: center;
-    font-size: 25px;
-    font-family: "Georgia";
+h1{
+	color: red;
+}
+h3{
+	color: green;
+}
+h2{
+	color: blue;
+
+}
+
+#demo{
+	color: red;
+}
+
+#text_area1{
+	color: orange;
 }

@@ -1,20 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Ley de nodos</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
- <div>
-     <h1 id="demo">Ley de nodos</h1>
- </div>
- <div>
-     <input type="text" id="demo1">
-     <button onclick="texto()">click</button>
- </div>
-<script src="events.js"></script>   
-</body>
+	<head>
+	<link rel="shortcut icon" href="https://findicons.com/files/icons/1994/vista_style_business_and_data/128/link_disconnection.png">
+	<meta charset="utf-8">
+	<title>Mi primera página</title>
+	<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<div>
+		<h1 id="demo">Alfonzo</h1>
+		<h3 id="selecionado">seleccionado</h3>
+		<h2 id="text_area1">Area</h2>
+		<input type="text" id="demo1">
+		<button onclick="texto()">Cliquea me</button>
+		</div>
+		<br>
+		
+		<div>
+		<label for="cars">Choose a car:</label>
+		<select name="cars" id="cars">
+  		<option value="volvo">Volvo</option>
+  		<option value="saab">Saab</option>
+  		<option value="mercedes">Mercedes</option>
+  		<option value="audi">Audi</option>
+		</select>
+		<button onclick="car()">Aceptar</button>
+		</div>
+
+		<div>
+		<textarea id="text_area" rows="4" cols="50"></textarea>
+		<button onclick="text_area()">Enviar</button>
+		</div>
+		<script src="events.js"></script>
+	</body>
 </html>
