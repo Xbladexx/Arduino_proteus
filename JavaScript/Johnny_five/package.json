@@ -4,7 +4,8 @@
   "description": "robotica",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reset_nano": "firmata-party nano --debug"
   },
   "author": "jeremy",
   "license": "ISC",
