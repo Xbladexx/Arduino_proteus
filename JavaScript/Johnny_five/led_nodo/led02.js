@@ -39,9 +39,9 @@ io.on('connection', (socket)=>{//function(socket)
         myleds[1].on()
         myleds[2].on()
         myleds[3].off()
-        await delay(100);
+        await delay(10000);
         detener();
-        await delay(100);
+        await delay(10000);
         
     }    
     adelante();
@@ -56,9 +56,9 @@ socket.on('atras', ()=>{
   myleds[1].off()
   myleds[2].off()
   myleds[3].on()
-  await delay(100);
+  await delay(10000);
   detener();
-  await delay(100);
+  await delay(10000);
   }
 
   atras();
@@ -66,39 +66,44 @@ socket.on('atras', ()=>{
 
 })
 
-socket.on('derecha', ()=>{
-
+socket.on('derecha', ()=>{//function()
+    
   async function derecha(){
-    myleds[0].on()
-    myleds[1].off()
-    myleds[2].on()
-    myleds[3].off()
-    await delay(100);
-    derecha();
-    await delay(100);
-  }
+      myleds[0].on()
+      myleds[1].off()
+      myleds[2].on()
+      myleds[3].off()
+      await delay(10000);
+      detener();
+      await delay(10000);
+      
+  }    
   derecha();
-  console.log('\nDERECHA')
+
+console.log('\nDERECHA')
 })
 
-socket.on('izquierda', ()=>{
-
+socket.on('izquierda', ()=>{//function()
+    
   async function izquierda(){
-    myleds[0].off()
-    myleds[1].on()
-    myleds[2].off()
-    myleds[3].on()
-    await delay(100);
-    izquierda();
-    await delay(100);
-  }
+      myleds[0].off()
+      myleds[1].on()
+      myleds[2].off()
+      myleds[3].on()
+      await delay(10000);
+      detener();
+      await delay(10000);
+      
+  }    
   izquierda();
-  console.log('\nIZQUIERDA')
-}) 
+
+console.log('\nIZQUIERDA')
+})
+
 
 socket.on('detener', ()=>{ 
 
-  detener()
+  detener();
   console.log('\nDETENER')
 
 
